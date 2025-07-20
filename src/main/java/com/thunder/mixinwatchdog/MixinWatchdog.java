@@ -14,10 +14,10 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(MixinWatchdog.MODID)
+@Mod(MixinWatchdog.MOD_ID)
 public class MixinWatchdog {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "examplemod";
+    public static final String MOD_ID = "mixinwatchdog";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
